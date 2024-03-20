@@ -5,7 +5,7 @@ function findSmallest(){
         document.getElementById( "smallest" ).innerHTML = `The smallest number is ${num2}.`;
     }
     else if(num1==num2){
-        document.getElementById( "smallest" ).innerHTML = `Both number is Equal.`;
+        document.getElementById( "smallest" ).innerHTML = `Both numbers are Equal.`;
     }
     else{
         document.getElementById( "smallest" ).innerHTML = `The smallest number is ${num1}.`;
