@@ -23,3 +23,28 @@ function fun1(){
     }
     alert(`You choose rock.Computer choose ${compchoose}.${result}`);
 }
+function fun2(){
+    let compmove=Math.random();
+    let compchoose='';
+    if(compmove>=0&&compmove<1/3){
+        compchoose='rock';
+    }
+    else if(compmove>=1/3&&compmove<2/3){
+        compchoose='scissors';
+    }
+    else if(compmove>=2/3&&compmove<1){
+        compchoose='paper';
+    }
+    
+    let result='';
+    if(compchoose==='rock'){
+        result='You win.';
+    }
+    else if(compchoose==='scissors'){
+        result='You lose.';
+    }
+    else if(compchoose==='paper'){
+        result='Tie.';
+    }
+    alert(`You choose paper.Computer choose ${compchoose}.${result}`);
+}
